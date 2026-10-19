@@ -4,7 +4,6 @@
 **Registration number:** 25/27953 
 **Institutional username:** ug2527953@ines.ac.rw 
 **Verification code:** AI-A2-7953
-
 This is Kawaya Gueylord's implementation of the SWE 3513 Assignment 2 service. It deterministically generates synthetic farm data, compares regression and classification models, groups similar feature profiles with K-Means, persists complete pipelines, and serves predictions through a CLI and FastAPI.
 
 ## Setup and complete build
@@ -72,12 +71,14 @@ The current personal build uses 280 base rows, 283 raw rows and 280 cleaned rows
 
 ## Repository reference
 
-Repository URL: **PENDING — add the real URL after publication.** 
-Final commit hash: **PENDING — add the real output of `git rev-parse HEAD`.**
+Repository URL: `https://github.com/gueylo/AI_A2_REGDIGITS.git`  
+Reproducible source/build commit: `d94faeb5d31e173eca384b8091d09b562dc8c68d`
+
+The source/build hash above identifies the complete generated system before this README recorded that hash. The current repository tip is obtained truthfully with `git rev-parse HEAD` and should be shown in the demonstration video.
 
 ## Limitations and responsible use
 
 The data are wholly synthetic, missingness is artificial, sample size is small, and estimated probabilities are not calibrated agronomic truths. Cluster numbers are identifiers, not rankings. Do not use outputs to grant or deny finance, insurance, government services, or farm treatment. Validate against real, consented data and require qualified agronomist review.
 
-No repository URL or commit hash is claimed yet because no repository has been authorized or created. Before submission, Kawaya must review the measured interpretations, sign the declaration, record the continuous personal video, add the real Git reference, and audit the final ZIP.
+Before submission, Kawaya must review the measured interpretations, sign the truthful declaration, verify that the continuous personal video shows the real current commit hash, and audit the final ZIP.
 
