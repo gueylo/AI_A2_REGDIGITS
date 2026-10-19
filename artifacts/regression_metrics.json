@@ -1,0 +1,51 @@
+{
+  "cv_results": {
+    "dummy_mean": {
+      "cv_mae_mean": 2.0760180468370857,
+      "cv_mae_std": 0.25671452031143677,
+      "cv_rmse_mean": 2.5424756662713976
+    },
+    "random_forest": {
+      "cv_mae_mean": 1.0272635788796212,
+      "cv_mae_std": 0.16062043630398207,
+      "cv_rmse_mean": 1.2790805244857537
+    },
+    "ridge": {
+      "cv_mae_mean": 0.8117794130239229,
+      "cv_mae_std": 0.08975590341040478,
+      "cv_rmse_mean": 1.013431210545162
+    }
+  },
+  "held_out_metrics": {
+    "dummy_mean": {
+      "mae": 2.4154984056122446,
+      "r2": -6.288696750456069e-06,
+      "rmse": 2.9441233951373036
+    },
+    "random_forest": {
+      "mae": 1.3396546496314123,
+      "r2": 0.6919794155747148,
+      "rmse": 1.6339716347824058
+    },
+    "ridge": {
+      "mae": 0.8698845504872048,
+      "r2": 0.8598992227564793,
+      "rmse": 1.1019830514687101
+    }
+  },
+  "largest_test_error": {
+    "absolute_error_tons": 3.224710176790115,
+    "actual_yield_tons": 16.5101,
+    "position": 55,
+    "predicted_yield_tons": 13.285389823209886,
+    "row_id": 150
+  },
+  "last_four": "7953",
+  "registration_digits": "2527953",
+  "seed": 7953,
+  "selected_model": "ridge",
+  "selection_method": "lowest mean 5-fold training-only CV MAE; CV RMSE tie-break",
+  "selection_reason": "ridge had the lowest training-only mean CV MAE",
+  "student_id": "ug2527953@ines.ac.rw",
+  "verification_code": "AI-A2-7953"
+}

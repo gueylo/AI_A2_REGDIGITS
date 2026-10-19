@@ -1,0 +1,32 @@
+{
+  "data_sha256": "ffb9be9b7e281791dc2143236fbb19a067ff3bf5e793b535f90b2b280ed149d4",
+  "features": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "soil_moisture_pct",
+    "fertilizer_kg",
+    "field_size_ha",
+    "season",
+    "cooperative_support"
+  ],
+  "last_four": "7953",
+  "registration_digits": "2527953",
+  "seed": 7953,
+  "selected_classification_model": "random_forest",
+  "selected_k": 2,
+  "selected_regression_model": "ridge",
+  "student_id": "ug2527953@ines.ac.rw",
+  "synthetic_prototype": true,
+  "targets": {
+    "high_risk": "1 when base-row yield per hectare is strictly below its median",
+    "yield_tons": "synthetic yield in tons from the prescribed formula"
+  },
+  "verification_code": "AI-A2-7953",
+  "versions": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "python": "3.12.3",
+    "scikit_learn": "1.9.1"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "cv_results": {
+    "dummy_majority": {
+      "cv_f1_mean": 0.2626865671641791,
+      "cv_f1_std": 0.32172402591779053,
+      "cv_recall_mean": 0.4
+    },
+    "logistic_regression": {
+      "cv_f1_mean": 0.9384173037364526,
+      "cv_f1_std": 0.024829045305457327,
+      "cv_recall_mean": 0.9462450592885375
+    },
+    "random_forest": {
+      "cv_f1_mean": 0.9393650793650792,
+      "cv_f1_std": 0.02328847864484352,
+      "cv_recall_mean": 0.9553359683794467
+    }
+  },
+  "example_classification_error": {
+    "actual_high_risk": 0,
+    "error_type": "false_positive",
+    "high_risk_probability": 0.885138888888889,
+    "position": 11,
+    "predicted_high_risk": 1,
+    "row_id": 26
+  },
+  "held_out_metrics": {
+    "dummy_majority": {
+      "confusion_matrix_labels_0_1": [
+        [
+          28,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ],
+      "f1_high_risk": 0.0,
+      "precision_high_risk": 0.0,
+      "recall_high_risk": 0.0,
+      "roc_auc": 0.5,
+      "zero_division": 0
+    },
+    "logistic_regression": {
+      "confusion_matrix_labels_0_1": [
+        [
+          22,
+          6
+        ],
+        [
+          3,
+          25
+        ]
+      ],
+      "f1_high_risk": 0.847457627118644,
+      "precision_high_risk": 0.8064516129032258,
+      "recall_high_risk": 0.8928571428571429,
+      "roc_auc": 0.9426020408163265,
+      "zero_division": 0
+    },
+    "random_forest": {
+      "confusion_matrix_labels_0_1": [
+        [
+          21,
+          7
+        ],
+        [
+          3,
+          25
+        ]
+      ],
+      "f1_high_risk": 0.8333333333333334,
+      "precision_high_risk": 0.78125,
+      "recall_high_risk": 0.8928571428571429,
+      "roc_auc": 0.9170918367346939,
+      "zero_division": 0
+    }
+  },
+  "last_four": "7953",
+  "registration_digits": "2527953",
+  "seed": 7953,
+  "selected_model": "random_forest",
+  "selection_method": "highest mean 5-fold stratified training-only CV F1; recall tie-break",
+  "selection_reason": "random_forest had the highest training-only mean CV F1",
+  "student_id": "ug2527953@ines.ac.rw",
+  "verification_code": "AI-A2-7953"
+}

@@ -1,0 +1,93 @@
+{
+  "last_four": "7953",
+  "limitations": "Unsupervised similarity groups are descriptive, not agronomic quality grades.",
+  "profiles_original_units": [
+    {
+      "cluster": 0,
+      "cooperative_support_proportion": 0.0,
+      "count": 110,
+      "interpretation_note": "Cluster IDs group similar input conditions and are not quality rankings.",
+      "numeric_means": {
+        "avg_temp_c": 19.068771818181816,
+        "fertilizer_kg": 128.59198137254901,
+        "field_size_ha": 2.2140854545454545,
+        "rainfall_mm": 1021.2006545454545,
+        "soil_moisture_pct": 51.076774766355136
+      },
+      "season_distribution": {
+        "A": 0.5363636363636364,
+        "B": 0.4636363636363636
+      }
+    },
+    {
+      "cluster": 1,
+      "cooperative_support_proportion": 1.0,
+      "count": 114,
+      "interpretation_note": "Cluster IDs group similar input conditions and are not quality rankings.",
+      "numeric_means": {
+        "avg_temp_c": 18.902338596491223,
+        "fertilizer_kg": 123.39044311926604,
+        "field_size_ha": 1.981927192982456,
+        "rainfall_mm": 1017.3641780701753,
+        "soil_moisture_pct": 50.12601869158878
+      },
+      "season_distribution": {
+        "A": 0.5087719298245614,
+        "B": 0.49122807017543857
+      }
+    }
+  ],
+  "registration_digits": "2527953",
+  "scores_k_2_to_6": {
+    "2": {
+      "cluster_counts": {
+        "0": 110,
+        "1": 114
+      },
+      "silhouette": 0.15683420218626434
+    },
+    "3": {
+      "cluster_counts": {
+        "0": 75,
+        "1": 86,
+        "2": 63
+      },
+      "silhouette": 0.12934812447641666
+    },
+    "4": {
+      "cluster_counts": {
+        "0": 54,
+        "1": 70,
+        "2": 55,
+        "3": 45
+      },
+      "silhouette": 0.13629085315554265
+    },
+    "5": {
+      "cluster_counts": {
+        "0": 51,
+        "1": 43,
+        "2": 32,
+        "3": 62,
+        "4": 36
+      },
+      "silhouette": 0.13397103870705815
+    },
+    "6": {
+      "cluster_counts": {
+        "0": 39,
+        "1": 40,
+        "2": 38,
+        "3": 37,
+        "4": 31,
+        "5": 39
+      },
+      "silhouette": 0.1408626475832597
+    }
+  },
+  "seed": 7953,
+  "selected_k": 2,
+  "selection_method": "maximum training silhouette; smaller K breaks exact ties",
+  "student_id": "ug2527953@ines.ac.rw",
+  "verification_code": "AI-A2-7953"
+}

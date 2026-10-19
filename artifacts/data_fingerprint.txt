@@ -1,0 +1,2 @@
+verification_code=AI-A2-7953
+sha256=ffb9be9b7e281791dc2143236fbb19a067ff3bf5e793b535f90b2b280ed149d4
